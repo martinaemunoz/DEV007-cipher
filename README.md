@@ -11,5 +11,5 @@ El diseño de esta aplicación tiene una temática infantil, por ende su paleta 
 La página principal incluye el nombre de la aplicación, su descripción mediante una sigla y las dos opciones de Cifrar y Descifrar. Al cliquear cualquiera de los botones se ingresa a una segunda pantalla, que incluye un input para cifrar o descifrar y un botón para volver a la página principal.
 
 ![image](https://user-images.githubusercontent.com/52142059/231478655-9daaa535-0af8-48c1-b61f-bfee71bf699c.png)
-![image](https://user-images.githubusercontent.com/52142059/231478942-bd3ce41b-7c3f-4bb6-b0fa-503ec395d3bc.png)
+![image](https://user-images.githubusercontent.com/52142059/231479352-189ed4cc-97e2-4b8d-a539-3e96636f7016.png)
 ![image](https://user-images.githubusercontent.com/52142059/231479035-d6898d1d-8a85-4c45-8103-5c64297d8ce4.png)
