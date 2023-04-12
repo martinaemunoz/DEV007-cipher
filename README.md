@@ -9,3 +9,7 @@ El cifrado césar es una de las técnicas más simples para cifrar un mensaje. E
 El diseño de esta aplicación tiene una temática infantil, por ende su paleta utiliza predominantemente colores primarios. Los elementos asociados al cifrado ocupan colores invertidos, que aluden a la función del espionaje.
 
 La página principal incluye el nombre de la aplicación, su descripción mediante una sigla y las dos opciones de Cifrar y Descifrar. Al cliquear cualquiera de los botones se ingresa a una segunda pantalla, que incluye un input para cifrar o descifrar y un botón para volver a la página principal.
+
+![image](https://user-images.githubusercontent.com/52142059/231478655-9daaa535-0af8-48c1-b61f-bfee71bf699c.png)
+![image](https://user-images.githubusercontent.com/52142059/231478942-bd3ce41b-7c3f-4bb6-b0fa-503ec395d3bc.png)
+![image](https://user-images.githubusercontent.com/52142059/231479035-d6898d1d-8a85-4c45-8103-5c64297d8ce4.png)
