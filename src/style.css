@@ -111,6 +111,10 @@ html {
     cursor: pointer;
 }
 
+.select_decipher:hover{
+    background: #cec0fc;
+}
+
 .descifrar{
     position: absolute;
     width: 187px;
@@ -125,8 +129,4 @@ html {
     text-align: center;
     color: #FFFFFF;
     cursor: pointer;
-}
-
-.select_decipher:hover{
-    background: #cec0fc;
 }
