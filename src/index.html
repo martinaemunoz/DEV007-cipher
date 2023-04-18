@@ -6,23 +6,22 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-  <section class="main_body">
+  <section class="main_body" id="main_body">
       <div class="boxed"></div>
       <h1 class="main_title">c.i.p.h.e.r (comunicación imperceptible para humanos, enemigos y rivales)</h1>
-      <section class="main_content">
+      <div class="main_content">
       <p>Escoge una opción</p>
-      </section>
-      <button class="select_cipher">
+      </div>
+      <button class="select_cipher" id="select_cipher" onclick="cipherMenu()"></button>
       </button>
       <h3 class="cifrar">cifrar</h3>
-      <button class="select_decipher">
-      </button>
+      <button class="select_decipher" id="select_decipher" onclick="decipherMenu()"></button>
       <h3 class="descifrar">descifrar</h3>
   </section>
       
      
 
-  <section class="cipher_body">
+  <section class="cipher_body" id="cipher_body" style="display:none">
     <div id="cipher" class="main1">
      <h2>cifrar mensaje</h2>
       <form  id="cipher_content" autocomplete="off">
@@ -34,11 +33,11 @@
         <input type="range" id="range1" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
          <output>10</output> 
       </div>
-      <button id="return1" class="return1">volver</button> 
+      <button id="return1" class="return1" onclick="volver()">volver</button> 
     </div> 
   </section>
 
-  <section class="decipher_body">
+  <section class="decipher_body" id="decipher_body" style="display:none">
     <div id="decipher" class="main2">
       <h2>descifrar mensaje</h2>
       <form  id="decipher_content" autocomplete="off">
@@ -50,7 +49,7 @@
         <input type="range" id="range2" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value" >
         <output>10</output>
       </div>
-      <button id="return2" class="return2">volver</button>
+      <button id="return2" class="return2" onclick="volver()">volver</button>
     </div>
   </section>
     <script src="index.js" type="module"></script>
