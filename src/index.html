@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>c.i.p.h.e.r</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
   <section class="main_body" id="main_body">
@@ -12,44 +12,44 @@
       <div class="main_content">
       <p>Escoge una opción</p>
       </div>
-      <button class="select_cipher" id="select_cipher" onclick="cipherMenu()"></button>
-      </button>
+      <button class="select_cipher" id="select_cipher"></button>
       <h3 class="cifrar">cifrar</h3>
-      <button class="select_decipher" id="select_decipher" onclick="decipherMenu()"></button>
+      <button class="select_decipher" id="select_decipher"></button>
       <h3 class="descifrar">descifrar</h3>
   </section>
-      
-     
-
+        
   <section class="cipher_body" id="cipher_body" style="display:none">
-    <div id="cipher" class="main1">
-     <h2>cifrar mensaje</h2>
+    <div id="cipher" class="main1"></div>
+    <div class= "cipher_box">
       <form  id="cipher_content" autocomplete="off">
-        <input type="text" id="original_input1" placeholder="Ingrese el texto" name="text" spellcheck="false">
-      </form>  
-      <div id= "btn_cipher" class="btn_cipher">cifrar</div>
-      <input type="text" id="result1">
-      <div class="range1">
-        <input type="range" id="range1" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
-         <output>10</output> 
-      </div>
-      <button id="return1" class="return1" onclick="volver()">volver</button> 
+      <input type="text" class="user_input1" id="user_input1" placeholder="Ingrese el texto" name="text" spellcheck="false" oninput="this.value= this.value.toUpperCase()">
+    </form>  
+    <input type="text" class="result1" id="result1">
+    <div class="range1">
+      <input type="range" class="range1" id="range1" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+       <output>10</output> 
     </div> 
+    </div>
+    <h2 class="cipher_title">cifrar mensaje</h2>
+    <button id="btn_cipher" class="btn_cipher"></button>
+    <h3 class="cifrar1">cifrar</h3>
+    <button id="return1" class="return1"></button> 
+    <h3 class="volver1">volver</h3>
   </section>
 
   <section class="decipher_body" id="decipher_body" style="display:none">
     <div id="decipher" class="main2">
       <h2>descifrar mensaje</h2>
       <form  id="decipher_content" autocomplete="off">
-        <input type="text" id="original_input2" placeholder="Ingrese el texto" name="text" spellcheck="false">
+        <input type="text" id="user_input2" placeholder="Ingrese el texto" name="text" spellcheck="false" oninput="this.value= this.value.toUpperCase()">
       </form>
-      <div id= "btn_decipher" class="btn_decipher">descifrar</div>
-      <input type="text" id="result2">
+      <button id= "btn_decipher" class="btn_decipher">descifrar</button>
+      <input type="text" class="result2" id="result2">
       <div class="range2">
-        <input type="range" id="range2" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value" >
+        <input type="range" id="range2" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
         <output>10</output>
       </div>
-      <button id="return2" class="return2" onclick="volver()">volver</button>
+      <button id="return2" class="return2">volver</button>
     </div>
   </section>
     <script src="index.js" type="module"></script>
