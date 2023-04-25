@@ -1,6 +1,6 @@
 ## Descripción del producto
 
-c.i.p.h.e.r app es una herramienta para codificar y decodificar mensajes, pensada para ser utilizada como una dinámica de juego tipo espías para niñes que deseen explorar su creatividad. Inspirada en la popular serie de dibujos animados de Cartoon Network "KND: Los chicos del barrio", c.i.p.h.e.r app busca recrear el género de espionaje y de misiones. Titulada al estilo de sus operaciones, c.i.p.h.e.r constituye un acrónimo que representa la función de la app: "comunicación imperceptible para humanos, enemigos y rivales".
+c.i.p.h.e.r app es una herramienta para codificar y decodificar mensajes, pensada para ser utilizada como una dinámica de juego tipo espías para niños que deseen explorar su creatividad. Inspirada en la popular serie de dibujos animados de Cartoon Network "KND: Los chicos del barrio", c.i.p.h.e.r app busca recrear el género de espionaje y de misiones. Titulada al estilo de sus operaciones, c.i.p.h.e.r constituye un acrónimo que representa la función de la app: "comunicación imperceptible para humanos, enemigos y rivales".
 
 En la interfaz de c.i.p.h.e.r se utiliza el cifrado César, en donde la letra es sustituida por otra letra del alfabeto que es definida por un número de desplazamiento.
 
