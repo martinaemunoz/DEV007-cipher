@@ -18,7 +18,7 @@ html, body {
     border: 2px solid #000000;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 32px;
-    }
+}
 
 .main_body {
     background-image: url(./img/kndtreehouse.jpg);
@@ -32,7 +32,6 @@ html, body {
     contain: content;
     display: block; 
     width: 100%;
-    height: 700px;
     color: #FFFFFF;
   }
 
@@ -176,7 +175,6 @@ html, body {
     contain: content;
     display: block; 
     width: 100%;
-    height: 700px;
     color: #000000;
   }
 
@@ -192,7 +190,6 @@ html, body {
     contain: content;
     display: block; 
     width: 100%;
-    height: 700px;
     color: #000000;
   }
 
