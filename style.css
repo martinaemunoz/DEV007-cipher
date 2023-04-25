@@ -1,0 +1,617 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.boxed {
+    box-sizing: border-box;
+    position: absolute;
+    width: 782px;
+    height: 173px;
+    left: 329px;
+    top: 90px;
+    background: rgba(1, 37, 56, 0.2);
+    backdrop-filter: invert(.7);
+    border: 2px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    }
+
+.main_body {
+    background-image: url(./img/kndtreehouse.jpg);
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    contain: content;
+    display: block; 
+    width: 100%;
+    height: 700px;
+    color: #FFFFFF;
+    margin: 0px;
+  }
+
+.main_title {
+    position: absolute;
+    width: 782px;
+    height: 173px;
+    left: 329px;
+    top: 90px;
+    text-align: center;
+    font-family: 'Aura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+}
+
+.main_content {
+    position: absolute;
+    width: 399px;
+    height: 37px;
+    left: 515px;
+    top: 340px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Aura';
+    text-shadow: 1px 1px #000000;
+}
+
+.cursor {
+    position: absolute;
+    line-height: 17px;
+    margin-left: 3px;
+    -webkit-animation: blink 0.6s infinite;
+    width: 10px;
+    height: 25px;
+    left: 410px;
+    top: 45px;
+    box-shadow: 1px 1px #000000;
+    border-radius: 2px;
+  }
+  
+@-webkit-keyframes blink {
+    0% {background: transparent}
+    50% {background: #fff}
+    100% {background: transparent}
+  }
+
+.select_cipher  {
+    box-sizing: border-box;
+    position: absolute;
+    width: 306px;
+    height: 188px;
+    left: 221px;
+    top: 465px;
+    background: rgba(1, 37, 56, 0.2);
+    backdrop-filter: invert(.7);
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.select_cipher:hover{
+    background-color: #075c0e;
+    color: white;
+    opacity: 0.9;
+}
+
+.cifrar {
+    position: absolute;
+    width: 110px;
+    height: 37px;
+    left: 319px;
+    top: 500px;
+    font-family: 'Aura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 1px 1px #000000;
+}
+
+
+.select_decipher{
+    position: absolute;
+    width: 306px;
+    height: 188px;
+    left: 914px;
+    top: 465px;
+    background: rgba(1, 37, 56, 0.2);
+    backdrop-filter: invert(.7);
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.select_decipher:hover{
+    background-color: #075c0e;
+    color: white;
+    opacity: 0.9;
+}
+
+.descifrar{
+    position: absolute;
+    width: 187px;
+    height: 37px;
+    left: 973px;
+    top: 500px;
+    font-family: 'Aura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 1px 1px #000000;
+}
+
+.cipher_body {
+    background-image: url(./img/kndgrass.jpg);
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    contain: content;
+    display: block; 
+    width: 100%;
+    height: 700px;
+    color: #000000;
+  }
+
+  .decipher_body {
+    background-image: url(./img/kndgrass.jpg);
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    contain: content;
+    display: block; 
+    width: 100%;
+    height: 700px;
+    color: #000000;
+  }
+
+  .btn_cipher{
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 87px;
+    left: 620px;
+    top: 400px;
+    background: rgba(217, 217, 217, 0.8);
+    mix-blend-mode: color-burn;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn_cipher:hover{
+    background-color: #00f915;
+    color: white;
+}
+
+
+.return1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 245px;
+    height: 87px;
+    left: 598px;
+    top: 550px;
+    background: rgba(217, 217, 217, 0.8);
+    mix-blend-mode: color-burn;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.return1:hover{
+    background-color: #00b10f;
+    color: white;
+}
+
+.cifrar1 {
+    position: absolute;
+    width: 110px;
+    height: 37px;
+    left: 665px;
+    top: 390px;
+    font-family: 'Aura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 1px 1px #000000;
+}
+
+.volver1 {
+    position: absolute;
+    width: 110px;
+    height: 37px;
+    left: 665px;
+    top: 540px;
+    font-family: 'Aura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 1px 1px #000000;
+}
+
+.cipher_title {
+    position: absolute;
+    width: 399px;
+    height: 37px;
+    left: 515px;
+    top: 90px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family:  'Aura';
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+}
+
+.cursor1 {
+    position: absolute;
+    line-height: 17px;
+    margin-left: 3px;
+    -webkit-animation: blink 0.6s infinite;
+    width: 10px;
+    height: 25px;
+    left: 358px;
+    top: 5px;
+    box-shadow: 1px 1px #000000;
+    border-radius: 2px;
+  }
+
+.main1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 645px;
+    height: 452px;
+    left: 398px;
+    top: 80px;
+    background: rgba(217, 217, 217, 0.8);
+    mix-blend-mode: exclusion;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+.cipher_box{
+    position: absolute;
+    left: 620px;
+    top: 200px;
+}
+
+.user_input1{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.user_input1:focus{
+    border: 3px solid black;
+}
+
+.output1{
+    position: absolute;
+    width: 40px;
+    height: 37px;
+    left: 220px;
+    top: 75px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 25px;
+    font-family:  'Aura';
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+}
+
+.result1{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.result1:focus{
+    border: 3px solid black;
+}
+
+.range1{
+    height: 10px;
+    -webkit-appearance: none;
+    margin: 10px 0px 25px 0px;
+    width: 100%;
+}
+
+.range1:focus{
+    outline: none;
+}
+
+.range1::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #002200;
+    background: #205928;
+    border: 1px solid #18D501;
+    margin: -3px;
+    border-radius: 10px;
+}
+
+.range1::-webkit-slider-thumb {
+    box-shadow: 3px 3px 0px #00AA00;
+    border: 3px solid #83E584;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #439643;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7.5px;
+}
+
+.range1:focus::-webkit-slider-runnable-track{
+    background: #205928;
+}
+
+.btn_decipher{
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 87px;
+    left: 620px;
+    top: 400px;
+    background: rgba(217, 217, 217, 0.8);
+    mix-blend-mode: color-burn;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn_decipher:hover{
+    background-color: #00f915;
+    color: white;
+}
+
+
+.return2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 245px;
+    height: 87px;
+    left: 598px;
+    top: 550px;
+    background: rgba(217, 217, 217, 0.8);
+    mix-blend-mode: color-burn;
+    border: 3px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.return2:hover{
+    background-color: #00b10f;
+    color: white;
+}
+
+.descifrar1 {
+    position: absolute;
+    width: 110px;
+    height: 37px;
+    left: 650px;
+    top: 395px;
+    font-family: 'Aura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 1px 1px #000000;
+}
+
+.volver2 {
+    position: absolute;
+    width: 110px;
+    height: 37px;
+    left: 665px;
+    top: 540px;
+    font-family: 'Aura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-shadow: 1px 1px #000000;
+}
+
+.decipher_title {
+    position: absolute;
+    width: 399px;
+    height: 37px;
+    left: 515px;
+    top: 90px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family:  'Aura';
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+}
+
+.cursor2 {
+    position: absolute;
+    line-height: 17px;
+    margin-left: 3px;
+    -webkit-animation: blink 0.6s infinite;
+    width: 10px;
+    height: 25px;
+    left: 395px;
+    top: 5px;
+    box-shadow: 1px 1px #000000;
+    border-radius: 2px;
+  }
+
+.main2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 645px;
+    height: 452px;
+    left: 398px;
+    top: 80px;
+    background: rgba(217, 217, 217, 0.8);
+    mix-blend-mode: exclusion;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 32px;
+}
+
+.decipher_box{
+    position: absolute;
+    left: 620px;
+    top: 200px;
+}
+
+.user_input2{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.user_input2:focus{
+    border: 3px solid black;
+}
+
+.output2{
+    position: absolute;
+    width: 40px;
+    height: 37px;
+    left: 220px;
+    top: 75px;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 25px;
+    font-family:  'Aura';
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+}
+
+.result2{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #555;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.result2:focus{
+    border: 3px solid black;
+}
+
+.range2{
+    height: 10px;
+    -webkit-appearance: none;
+    margin: 10px 0 25px;
+    width: 100%;
+}
+
+.range2:focus{
+    outline: none;
+}
+
+.range2::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 1px 1px 1px #002200;
+    background: #205928;
+    border-radius: 10px;
+    margin: -3px;
+    border: 1px solid #18D501;
+}
+
+.range2::-webkit-slider-thumb {
+    box-shadow: 3px 3px 0px #00AA00;
+    border: 3px solid #83E584;
+    height: 23px;
+    width: 23px;
+    border-radius: 23px;
+    background: #439643;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7.5px;
+}
+
+.range2:focus::-webkit-slider-runnable-track{
+    background: #205928;
+}

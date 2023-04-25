@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>c.i.p.h.e.r</title>
+    <link href="style.css" rel="stylesheet"/>
+  </head>
+  <body>
+  <section class="main_body" id="main_body">
+      <div class="boxed"></div>
+      <h1 class="main_title">c.i.p.h.e.r (comunicación imperceptible para humanos, enemigos y rivales)</h1>
+      <div class="main_content">
+      <p>Escoge una opción</p>
+      <div class="cursor"></div>
+      </div>
+      <button class="select_cipher" id="select_cipher"></button>
+      <h3 class="cifrar">cifrar</h3>
+      <button class="select_decipher" id="select_decipher"></button>
+      <h3 class="descifrar">descifrar</h3>
+  </section>
+        
+  <section class="cipher_body" id="cipher_body" style="display:none">
+    <div id="cipher" class="main1"></div>
+    <div class= "cipher_box">
+      <form  id="cipher_content" autocomplete="off">
+      <input type="text" class="user_input1" id="user_input1" placeholder="Ingresa el texto" name="text" spellcheck="false" oninput="this.value= this.value.toUpperCase()">
+    </form>  
+    <div class="range1">
+      <input type="range" class="range1" id="range1" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+       <output class="output1">10</output> 
+    </div> 
+    <input type="text" class="result1" id="result1">
+    </div>
+    <h2 class="cipher_title">cifrar mensaje <div class="cursor1"></div></h2>
+    <button id="btn_cipher" class="btn_cipher"></button>
+    <h3 class="cifrar1">cifrar</h3>
+    <button id="return1" class="return1"></button> 
+    <h3 class="volver1">volver</h3>
+  </section>
+
+  <section class="decipher_body" id="decipher_body" style="display:none">
+    <div id="decipher" class="main2"></div>
+    <div class="decipher_box">
+      <form  id="decipher_content" autocomplete="off">
+        <input type="text" class="user_input2" id="user_input2" placeholder="Ingresa el texto" name="text" spellcheck="false" oninput="this.value= this.value.toUpperCase()">
+      </form>
+      <div class="range2">
+        <input type="range" class="range2" id="range2" value="10" min="1" max="20" oninput="this.nextElementSibling.value = this.value">
+        <output class="output2">10</output>
+      </div>
+      <input type="text" class="result2" id="result2">
+      </div>
+      <h2 class="decipher_title">descifrar mensaje <div class="cursor2"></div></h2>
+      <button id= "btn_decipher" class="btn_decipher"></button>
+      <h3 class="descifrar1">descifrar</h3>
+      <button id="return2" class="return2"></button>
+      <h3 class="volver2">volver</h3>
+  </section>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
